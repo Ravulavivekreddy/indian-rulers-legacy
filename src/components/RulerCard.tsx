@@ -33,6 +33,7 @@ import narasimhaguptaImg from '@/assets/narasimhaguptha.jpg';
 
 
 //pallava images
+import simhavishnuKingImg from '@/assets/simhavishnu.jpg'
 import mahendravarmanKingImg from '@/assets/mahendravarman.jpg';
 import narasimhavarmanKingImg from '@/assets/narasimhavarman.jpg';
 import mahendravarmaIIKingImg from '@/assets/mahendravarma_II.jpg';
