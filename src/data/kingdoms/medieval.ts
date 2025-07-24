@@ -28,7 +28,7 @@ import maharanaPratapImg from '../../assets/Maharana Pratap.jpg';
 import ranaAmarSinghIImg from '../../assets/Rana Amar Singh I.jpg';
 import maharanaRajSinghIImg from '../../assets/Maharana Raj Singh I.jpg';
 
-import akbarImg from '../../assets/akbar.jpg';
+import akbarImg from '../../assets/Akbar.jpg';
 import baburImg from '../../assets/Babur.jpg';
 import humayunImg from '../../assets/Humayun.jpg';
 import jahangirImg from '../../assets/Jahangir.jpg';
