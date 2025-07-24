@@ -12,7 +12,7 @@ import rajadhirajaCholaImg from '../../assets/rajadhiraja chola.jpg';
 import kulothungaCholaIImg from '../../assets/kulothunga chola I.jpg';
 import parantakaIImg from '../../assets/parabtaka_I.jpg';
 
-import simhavishnuImg from '../../assets/simhavishnu.jpg';
+import simhavishnuImg from '../../assets/Simhavishnu.jpg';
 import mahendravarmanImg from '../../assets/mahendravarman.jpg';
 import narasimhavarmanImg from '../../assets/narasimhavarman.jpg';
 import mahendravarmaIIImg from '../../assets/mahendravarma_II.jpg';
