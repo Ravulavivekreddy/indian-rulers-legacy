@@ -592,7 +592,7 @@ const getRulerDetails = (rulerName: string, kingdomName: string): Ruler => {
   reignStart: 575,
   reignEnd: 600,
   notable: "Established Pallava power",
-  image: simhavishnuKingImg,
+  image: SimhavishnuKingImg,
   achievements: [
     "Laid the foundation of Pallava supremacy in South India.",
     "Revived the dynasty after Kalabhra interregnum.",
