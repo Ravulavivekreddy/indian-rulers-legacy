@@ -281,7 +281,7 @@ export const ancientKingdoms: Kingdom[] = [
           "Defeated Kalabhras",
           "Expanded Pallava territory"
         ],
-        image: SimhavishnuKingImg 
+        image: simhavishnuKingImg 
       },
       { 
         name: "Mahendravarman I", 

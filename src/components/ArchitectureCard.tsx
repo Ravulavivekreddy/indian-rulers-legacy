@@ -12,6 +12,7 @@ import shoreTempleImg from '@/assets/Shore Temple.jpg';
 
 import tajMahalImg from '@/assets/taj-mahal.jpg';
 import redFortImg from '@/assets/red-fort.jpg';
+import fatehpursikriImg from '@/assets/Fatehpur Sikri.jpg';
 import hampiMonumentsImg from '@/assets/hampi-monuments.jpg';
 
 import vittalaTempleImg from '@/assets/Vittala Temple.jpg';
@@ -226,6 +227,7 @@ const getArchitectureDetails = (structureName: string, kingdomName: string) => {
       ],
       currentStatus: "UNESCO World Heritage Site - Well preserved"
     },
+    
     "Shore Temple": {
       image: shoreTempleImg,
       details: "The Shore Temple is a UNESCO World Heritage Site located in Mahabalipuram. It is one of the earliest examples of structural temples in South India, built with granite blocks. The temple overlooks the Bay of Bengal and showcases the elegance of Pallava architecture.",
@@ -237,6 +239,67 @@ const getArchitectureDetails = (structureName: string, kingdomName: string) => {
       ],
       currentStatus: "UNESCO World Heritage Site - Well preserved"
     },
+    "Taj Mahal": {
+      image: tajMahalImg,
+      details: "The Taj Mahal, located in Agra, is a UNESCO World Heritage Site and one of the most iconic monuments in the world. Built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal, it is a symbol of love and architectural brilliance. The white marble mausoleum is renowned for its stunning symmetry, intricate carvings, and beautiful gardens, attracting millions of visitors each year.",
+      architecturalStyle: "Mughal architecture with Persian, Indian, and Islamic influences. Features include a white marble mausoleum, intricate inlay work, and expansive gardens.",
+      significance: [
+        "UNESCO World Heritage Site",
+        "Symbol of love and architectural brilliance",
+        "One of the Seven Wonders of the World",
+        "Major tourist attraction in India"
+      ],
+      currentStatus: "UNESCO World Heritage Site - Well preserved"
+    },
+    "Red Fort": {
+      image: redFortImg,
+      details: "The Red Fort, also known as Lal Qila, is a UNESCO World Heritage Site located in Delhi. Built by Mughal Emperor Shah Jahan in the 17th century  as the main residence of the Mughal emperors, it is a symbol of India's rich history and architectural grandeur. The fort is renowned for its massive red sandstone walls, intricate carvings, and beautiful gardens. It served as the ceremonial and political center of Mughal rule for nearly 200 years.",
+      architecturalStyle: "Mughal architecture with red sandstone walls, intricate carvings, and expansive gardens. Represents the zenith of Mughal architectural achievement.",
+      significance: [
+        "UNESCO World Heritage Site",
+        "Symbol of India's rich history and architectural grandeur",
+        "Former residence of Mughal emperors",
+        "Major tourist attraction in Delhi"
+      ],
+      currentStatus: "UNESCO World Heritage Site - Well preserved"
+    },
+    "fathepur Sikri": {
+      image: fatehpursikriImg,
+      details: "Fatehpur Sikri, built by Mughal Emperor Akbar in the late 16th century, is a UNESCO World Heritage Site and a masterpiece of Mughal architecture. It served as the capital of the Mughal Empire for a brief period and is known for its stunning red sandstone structures, intricate carvings, and harmonious blend of Persian, Indian, and Islamic architectural styles. The city features several notable structures, including the Buland Darwaza, Diwan-i-Khas, and the Tomb of Salim Chishti.",
+      architecturalStyle: "Mughal architecture with red sandstone structures, intricate carvings, and a blend of Persian, Indian, and Islamic styles. Represents the zenith of Mughal architectural achievement.",
+      significance: [
+        "UNESCO World Heritage Site",
+        "Former capital of the Mughal Empire",
+        "Architectural marvel with unique structures",
+        "Major tourist attraction in Uttar Pradesh"
+      ],
+      currentStatus: "UNESCO World Heritage Site - Well preserved"
+    },
+    "Hampi Monuments": {
+      image: hampiMonumentsImg,
+      details: "Hampi, a UNESCO World Heritage Site, is an ancient city in Karnataka known for its stunning ruins and temples from the Vijayanagara Empire. The site features a unique blend of Dravidian and Indo-Islamic architecture, with iconic structures like the Virupaksha Temple, Vittala Temple, and the Royal Enclosure. Hampi's landscape is dotted with boulders, hills, and lush greenery, making it a remarkable archaeological site that reflects the grandeur of the Vijayanagara Empire.",
+      architecturalStyle: "Dravidian and Indo-Islamic architecture with intricate carvings, massive stone structures, and unique temple designs. Represents the zenith of Vijayanagara architectural achievement.",
+      significance: [
+        "UNESCO World Heritage Site",
+        "Ancient city of the Vijayanagara Empire",
+        "Architectural marvel with unique temple designs",
+        "Major tourist attraction in Karnataka"
+      ],
+      currentStatus: "UNESCO World Heritage Site - Well preserved"
+    },
+    "Vittala Temple": {
+      image: vittalaTempleImg,
+      details: "The Vittala Temple in Hampi is renowned for its iconic stone chariot and musical pillars. Built during the Vijayanagara Empire, it showcases the grandeur of Dravidian architecture with its intricate carvings and unique architectural features. The temple complex is dedicated to Lord Vittala, an incarnation of Lord Vishnu, and is a significant pilgrimage site.",
+      architecturalStyle: "Dravidian architecture with intricate carvings and unique features like the stone chariot and musical pillars. Represents the zenith of Vijayanagara architectural achievement.",
+      significance: [
+        "UNESCO World Heritage Site",
+        "Iconic stone chariot and musical pillars",
+        "Major pilgrimage site dedicated to Lord Vittala",
+        "Architectural marvel of the Vijayanagara Empire"
+      ],
+      currentStatus: "UNESCO World Heritage Site - Well preserved"
+    },
+    
     "Qutub Minar": {
       image: qutubMinarImg,
       details: "The Qutub Minar, located in Delhi, is the tallest brick minaret in the world. Built by Qutb-ud-din Aibak, it is part of the Qutub complex and represents the early Indo-Islamic architecture with intricate carvings and Quranic inscriptions.",

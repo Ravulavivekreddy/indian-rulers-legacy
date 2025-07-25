@@ -1076,7 +1076,25 @@ const getRulerDetails = (rulerName: string, kingdomName: string): Ruler => {
         "Successfully fought Bahmanis",
         "Maintained strong borders"
       ]
+
     },
+    "harihara II": {
+      name: "Harihara II", 
+      reignStart: 1446,
+      reignEnd: 1485,
+      notable: "Strengthened Vijayanagara",
+      image: hariharaIIImg,
+      achievements: [
+        "Strengthened Vijayanagara Empire",
+        "Expanded trade and commerce",
+        "Promoted cultural activities"
+      ],    
+      militaryVictories: [
+        "Defeated Bahmani Sultanate",
+        "Maintained territorial integrity"
+      ]
+    },  
+    
     "Krishnadevaraya": {
       name: "Krishnadevaraya",
       reignStart: 1509,
